@@ -11,6 +11,24 @@
         @font-face {
             font-family: "iconfont";
             /* Project id  */
+            src: url('fonts/shopCar/iconfont.ttf?t=1666357917096') format('truetype');
+        }
+
+        @font-face {
+            font-family: "iconfont";
+            /* Project id  */
+            src: url('fonts/search/iconfont.ttf?t=1666357657665') format('truetype');
+        }
+
+        @font-face {
+            font-family: "iconfont";
+            /* Project id  */
+            src: url('fonts/camera/iconfont.ttf?t=1666355754462') format('truetype');
+        }
+
+        @font-face {
+            font-family: "iconfont";
+            /* Project id  */
             src: url('fonts/next/iconfont.ttf?t=1666316372424') format('truetype');
         }
 
@@ -188,10 +206,106 @@
             left: 40px;
             border-color: red;
             border-style: solid;
-            width: 546px;
+            width: 450px;
             height: 35px;
             border-right: hidden;
             padding-left: 10px;
+            overflow: hidden;
+            color: #999;
+        }
+
+        .iconfont04 {
+            position: absolute;
+            font-family: "iconfont" !important;
+            font-size: 20px;
+            font-style: normal;
+            -webkit-font-smoothing: 0.2px;
+            color: #999;
+            padding-left: 10px;
+            height: 35px;
+            top: 35px;
+            left: 482.8px;
+            border: 2px;
+            border-color: red;
+            border-style: solid;
+            border-left: hidden;
+            padding-right: 10px;
+        }
+
+        .tijiao {
+            position: absolute;
+            top: 35px;
+            left: 514px;
+            height: 35px;
+            width: 43px;
+            background-color: red;
+            border: 2px;
+            border-color: red;
+            border-style: solid;
+        }
+
+        .iconfont05 {
+            font-family: "iconfont" !important;
+            font-size: 30px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: white;
+        }
+
+        .iconfont06 {
+            font-family: "iconfont" !important;
+            font-size: 20px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: red;
+        }
+
+        .gouwuche {
+            width: 130px;
+            height: 34px;
+            position: absolute;
+            border: 1px;
+            border-style: solid;
+            border-color: #eee;
+            top: 35px;
+            left: 570px;
+            text-align: center;
+        }
+
+        .gouwuche:hover {
+            border-color: red;
+        }
+
+        .tuijian {
+            width: 550px;
+            height: 20px;
+            position: absolute;
+            top: 70px;
+            left: 40px;
+            text-align: center;
+        }
+
+        .tuijian02 {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .daohang02 {
+            position: absolute;
+            width: 750.51px;
+            height: 40px;
+            top: 100px;
+            left: -30px;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .daohang03 {
+            line-height: 20px;
+            padding: 0px 10px;
+            font-size: 15px;
         }
     </style>
 </head>
@@ -248,9 +362,33 @@
         <a class="logo" href="#"><img src="upload/JDlogo.jpg" class="logo"></img></a>
         <a class="tejia" href="#"><img src="upload/diannao.jpg" class="tejia"></img></a>
         <div class="middle">
-            <input type="text" class="searchkuang" style="outline:none">
-            <div class="tuijian"></div>
-            <div class="daohang02"></div>
+            <input type="text" class="searchkuang" style="outline:none" placeholder="游戏主机">
+            <a class="iconfont04" href="#" style="outline:none">&#xe61d;</a>
+            <button class="tijiao iconfont05">&#xe693;</button>
+            <div class="gouwuche"><a class="iconfont06">&#xe63f;</a><a href="#"> 我的购物车</a></div>
+            <div class="tuijian">
+                <a href="#" class="tuijian02">手机超值冲</a>
+                <a href="#" class="tuijian02">建材双11</a>
+                <a href="#" class="tuijian02">盖狮果泥</a>
+                <a href="#" class="tuijian02">企采超省</a>
+                <a href="#" class="tuijian02">健康预售</a>
+                <a href="#" class="tuijian02">不止5折</a>
+                <a href="#" class="tuijian02">海信巅峰</a>
+                <a href="#" class="tuijian02">iPhone14</a>
+                <a href="#" class="tuijian02">家电爆品</a>
+            </div>
+            <div class="daohang02">
+                <a href="#" class="daohang03">京东超市</a>
+                <a href="#" class="daohang03">京东生鲜</a>
+                <a href="#" class="daohang03">秒杀</a>
+                <a href="#" class="daohang03">优惠券</a>
+                <a href="#" class="daohang03">京东家电</a>
+                <a href="#" class="daohang03">PLUS会员</a>
+                <a href="#" class="daohang03">品牌闪购</a>
+                <a href="#" class="daohang03">进口好物</a>
+                <a href="#" class="daohang03">拍卖</a>
+                <a href="#" class="daohang03">京东云</a>
+            </div>
         </div>
     </div>
 </body>
