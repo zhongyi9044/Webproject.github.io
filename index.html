@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模仿京东项目</title>
+    <link rel="stylesheet" href="css/base.css">
+    <style>
+        @font-face {
+            font-family: "iconfont";
+            /* Project id  */
+            src: url('fonts/next/iconfont.ttf?t=1666316372424') format('truetype');
+        }
+
+        @font-face {
+            font-family: "iconfont";
+            /* Project id  */
+            src: url('fonts/X/iconfont.ttf?t=1666243001317') format('truetype');
+        }
+
+        @font-face {
+            font-family: "iconfont";
+            /* Project id  */
+            src: url('fonts/address/iconfont.ttf?t=1666271468304') format('truetype');
+        }
+
+        .news {
+            display: block;
+            background-color: rgb(214, 5, .4);
+            text-decoration: none;
+        }
+
+        .newsImages {
+            height: 80px;
+            width: 1190px;
+            background-image: url(upload/news.jpg);
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            background-size: cover;
+        }
+
+        .X {
+            position: absolute;
+            top: 5px;
+            right: 0;
+            height: 20px;
+            width: 20px;
+            z-index: 1;
+            background: #2d2d2d;
+            opacity: .3;
+            line-height: 20px;
+            text-align: center;
+        }
+
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 15px;
+            font-style: normal;
+            -webkit-font-smoothing: .2px;
+            -moz-osx-font-smoothing: grayscale;
+
+        }
+
+        .navigation {
+            border-bottom: 1px solid #ddd;
+            background-color: #e3e4e5;
+            height: 30px;
+        }
+
+        .navigation02 {
+            height: 30px;
+            width: 1190px;
+            line-height: 30px;
+            color: #999;
+            margin: auto;
+        }
+
+        .navigation03 {
+            float: left;
+            width: 58px;
+            height: 30px;
+            line-height: 30px;
+            color: #999;
+        }
+
+        .navigation04 {
+            padding: 0 7px;
+        }
+
+        .iconfont02 {
+            font-family: "iconfont" !important;
+            font-style: normal;
+            -webkit-font-smoothing: .2px;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 14px;
+            color: #f10215;
+            width: 14px;
+            height: 15.2px;
+        }
+
+        .weizhi {
+            height: 24px;
+            line-height: 16px;
+        }
+
+        .navigation05 {
+            float: right;
+            width: 770px;
+            height: 30px;
+        }
+
+        .daohang {
+            float: left;
+            width: 127.113.px;
+            height: 30px;
+            color: #999;
+            margin: 0px 5px 5px;
+
+        }
+
+        .denglu {
+            color: red;
+        }
+
+        .shuxian {
+            float: left;
+            width: 1px;
+            height: 10px;
+            margin: 11px 5px 0px;
+            background-color: #ccc;
+        }
+
+        .daohangwithlianjie {
+            width: 60px;
+            float: left;
+            height: 30px;
+            margin: 0px 5px 5px;
+            position: relative;
+        }
+
+        .iconfont03 {
+            position: absolute;
+            text-align: center;
+            left: 55px;
+            right: 5px;
+            font-family: "iconfont" !important;
+            font-size: 10px;
+            font-style: normal;
+            -webkit-font-smoothing: 0.2px;
+            color: #999;
+        }
+
+        .search {
+            margin: 0 auto;
+            height: 141px;
+            width: 1190px;
+        }
+
+        .logo {
+            display: block;
+            float: left;
+            width: 190px;
+            height: 120px;
+            margin: 10.5px 0px;
+        }
+
+        .tejia {
+            display: block;
+            float: right;
+            width: 190px;
+            height: 120px;
+            margin: 10px 0px;
+        }
+
+        .middle {
+            margin: 0px 231.750px 0px 211.750px;
+            width: 746.51px;
+            height: 141px;
+            position: relative;
+        }
+
+        .searchkuang {
+            position: absolute;
+            top: 35px;
+            left: 40px;
+            border-color: red;
+            border-style: solid;
+            width: 546px;
+            height: 35px;
+            border-right: hidden;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="#" class="news">
+            <div class="newsImages">
+                <i class="iconfont X">&#xed1e;</i>
+            </div>
+        </a>
+    </div>
+    <div class="navigation">
+        <div class="navigation02">
+            <ul class="navigation03">
+                <li class="navigation04">
+                    <a href="#" class="iconfont02">&#xebbb;</a>
+                    <span>广东</span>
+                </li>
+            </ul>
+
+            <ul class="navigation05">
+                <li class="daohang">
+                    <a href="#" class="daohang">你好，请登录</a>
+                    &nbsp;&nbsp;
+                    <a href="#" class="denglu">免费注册</a>
+                </li>
+                <li class="shuxian"></li>
+                <li><a href="#" class="daohang">我的订单</a></li>
+                <li class="shuxian"></li>
+                <li class="daohangwithlianjie">
+                    <a href="#" class="daohang">我的京东</a>
+                    <a href="#" class="iconfont03">&#xe6b9;</a>
+                </li>
+                <li class="shuxian"></li>
+                <li><a href="#" class="daohang">京东会员</a></li>
+                <li class="shuxian"></li>
+                <li class="daohangwithlianjie"><a href="#" class="daohang">企业采购</a><a href="#"
+                        class="iconfont03">&#xe6b9;</a></li>
+                <li class="shuxian"></li>
+                <li class="daohangwithlianjie"><a href="#" class="daohang">商家服务</a><a href="#"
+                        class="iconfont03">&#xe6b9;</a></li>
+                <li class="shuxian"></li>
+                <li class="daohangwithlianjie"><a href="#" class="daohang">网页导航</a><a href="#"
+                        class="iconfont03">&#xe6b9;</a></li>
+                <li class="shuxian"></li>
+                <li><a href="#" class="daohang">手机京东</a></li>
+                <li class="shuxian"></li>
+                <li><a href="#" class="daohang">网站无障碍</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="search">
+        <a class="logo" href="#"><img src="upload/JDlogo.jpg" class="logo"></img></a>
+        <a class="tejia" href="#"><img src="upload/diannao.jpg" class="tejia"></img></a>
+        <div class="middle">
+            <input type="text" class="searchkuang" style="outline:none">
+            <div class="tuijian"></div>
+            <div class="daohang02"></div>
+        </div>
+    </div>
+</body>
+
+</html>
