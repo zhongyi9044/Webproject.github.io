@@ -47,7 +47,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #f4f4f4;
 }
 
 .news {
@@ -175,6 +175,12 @@ body {
     font-style: normal;
     -webkit-font-smoothing: 0.2px;
     color: #999;
+}
+
+.linshi {
+    width: 1424px.8;
+    height: 141px;
+    background-color: #fff;
 }
 
 .search {
@@ -821,6 +827,7 @@ img {
     width: 1424.8px;
     height: 555px;
     margin: 20px 0px;
+    background-color: #f4f4f4;
 }
 
 .yushouhaowu1 {
@@ -848,6 +855,7 @@ img {
 
 .yushouchanpin1 {
     display: block;
+    position: relative;
     float: left;
     width: 190px;
     height: 210px;
@@ -856,4 +864,73 @@ img {
     background-color: #fff;
     background-image: url(../upload/yushouhaowubeijing.jpg);
     background-size: 100%;
+}
+
+.yushouchanpin2 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 7px;
+    left: 30px;
+    right: 30px;
+}
+
+.lingjuan {
+    width: 190px;
+    height: 32px;
+    position: absolute;
+    top: 144px;
+    font-size: 17px;
+    color: #fff;
+    line-height: 17px;
+}
+
+.lingjuanwenzi {
+    position: absolute;
+    top: 6.5px;
+    font-size: 17px;
+    color: #fff;
+    line-height: 17px;
+    top: 150px;
+    left: -5px;
+    width: 190px;
+    height: 32px;
+
+    font-weight: 700;
+    text-align: center;
+}
+
+.mingzi {
+    position: absolute;
+    left: 0;
+    width: 190px;
+    text-align: center;
+
+    font-weight: 700;
+    bottom: 12px;
+    height: 16px;
+    font-size: 16px;
+    color: #de452b;
+    line-height: 16px;
+}
+
+.tejiaqu {
+    width: 1190px;
+    height: 340px;
+    margin: 20px 117.40px;
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.yiqu {
+    width: 590px;
+    height: 340px;
+    margin-right: 10px;
+    float: left;
+}
+
+.erqu {
+    width: 590px;
+    height: 340px;
+    float: left;
 }
