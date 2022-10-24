@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "630085",
+      "name": "向上箭头",
+      "font_class": "xiangshangjiantou",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "637761",
+      "name": "反馈",
+      "font_class": "fankui",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "8356568",
+      "name": "京东2",
+      "font_class": "jingdong",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    }
+  ]
+}
