@@ -1201,3 +1201,64 @@ img {
     text-align: center;
     font-weight: 400;
 }
+
+.faxianhaohuo {
+    width: 1190px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.faxianhaohuo1 {
+    display: block;
+    width: 190px;
+    height: 260px;
+    float: left;
+    background-image: url(../upload/faxianhaohuobeijing.jpg);
+    background-size: 100%;
+}
+
+.faxianhaohuo2 {
+    width: 160px;
+    height: 90px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 55px 0px 10px 22px;
+    background-image: url(../upload/faxianhaohuologojpg.png);
+    background-size: 100%;
+    color: rgba(255, 255, 255, .8);
+    font-size: 16px;
+    padding-top: 55px;
+    padding-left: 20px;
+}
+
+.huadonghaohuo {
+    width: 990px;
+    height: 260px;
+    margin-left: 10px;
+    float: left;
+    background-color: #fff;
+}
+
+.huadonghaohuo1 {
+    display: block;
+    width: 150px;
+    height: 181px;
+    float: left;
+    margin: 50px 23px;
+
+}
+
+.huadonghaohuo2 {
+    width: 150px;
+    height: 150px;
+}
+
+.huadonghaowu3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+}
